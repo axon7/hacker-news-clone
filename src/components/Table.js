@@ -11,7 +11,7 @@ const smallColumn = {
   width: "10%"
 };
 
-const Table = ({ list, pattern, onDismiss }) => {
+const Table = ({ list, onDismiss }) => {
   return (
     <div className='table'>
       {list.map(item => (
